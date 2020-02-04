@@ -3,7 +3,7 @@
 
 
 
-  let randomNumber = Math.floor(Math.random() * 3 + 1);
+  const randomNumber = Math.floor(Math.random() * 3 + 1);
 
   function getMoveName(moveName) {
     if(moveName == 1){
@@ -42,7 +42,7 @@
     }
   }
 
-  let computerMove = getMoveName(randomNumber);
+  const computerMove = getMoveName(randomNumber);
 
   var playerMove = getMoveName(playerInput);
 
