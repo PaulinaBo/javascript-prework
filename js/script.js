@@ -5,7 +5,7 @@
 
   const randomNumber = Math.floor(Math.random() * 3 + 1);
 
-  function getMoveName(moveName) {
+  const getMoveName = function(moveName){
     if(moveName == 1){
       return 'kamień';
     } else if(moveName == 2) {
@@ -44,7 +44,7 @@
 
   const computerMove = getMoveName(randomNumber);
 
-  var playerMove = getMoveName(playerInput);
+  const playerMove = getMoveName(playerInput);
 
   displayResult(computerMove, playerMove);
 
