@@ -1,4 +1,4 @@
-{function playGame(playerInput){
+{const playGame = function (playerInput){
   clearMessages();
 
 
@@ -15,7 +15,7 @@
     }
   }
 
-  function displayResult(argComputerMove, argPlayerMove) {
+  const displayResult = function (argComputerMove, argPlayerMove) {
     if( argComputerMove == 'kamień' && argPlayerMove == 'papier'){
       printMessage('Ty wygrywasz!');
     }
